@@ -1,6 +1,5 @@
 # tictactoe
 Tic Tac Toe Game AI
-![emptyPlayGround](https://user-images.githubusercontent.com/101502190/210136504-be24ea47-1f16-49e5-b6ba-b433dc7c618d.png)
 ![playGround](https://user-images.githubusercontent.com/101502190/210136514-777d2ef7-a628-4fe2-a5c1-0fbce5de3cb8.png)
 ![x](https://user-images.githubusercontent.com/101502190/210136517-1bb07438-9127-4ab7-a4ce-7b7732c9a3dd.png)
 ![o](https://user-images.githubusercontent.com/101502190/210136522-0fe1488a-95fc-4aff-947e-ace09810edcf.png)
