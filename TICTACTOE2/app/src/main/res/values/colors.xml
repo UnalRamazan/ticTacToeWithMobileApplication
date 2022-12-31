@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_color_1">#4f83cc</color>
+    <color name="app_color_2">#01579b</color>
+    <color name="app_color_3">#002f6c</color>
+    <color name="app_color_4">#FFFFFFFF</color>
+    <color name="app_color_5">#F4F3F3</color>
+    <color name="settings_page_color">#FF000000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_page_background">#FFFFFFFF</color>
+    <color name="btn_background_color">#4f83cc</color>
+    <color name="btn_text_color">#FFFFFFFF</color>
+    <color name="image_button_color">#01579b</color>
+    <color name="text_color_dark">#01579b</color>
+    <color name="text_color_light">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.AboutUsActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_color_5"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/doftdare_logo"
+                android:scaleType="fitCenter"
+                android:layout_margin="10dp"
+                android:background="@drawable/style_settings_page_box"
+                android:contentDescription="@string/socialMediaImage">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/style_settings_page_box">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aboutUs_information1"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/settings_page_color"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:padding="10dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aboutUs_information2"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/settings_page_color"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:padding="10dp">
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gmail"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/settings_page_color"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/style_settings_page_box"
+                app:drawableTopCompat="@drawable/ic_baseline_mail">
+            </TextView>
+
+            <TextView
+                android:id="@+id/slogan_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/slogan"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/settings_page_color"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/style_settings_page_box">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

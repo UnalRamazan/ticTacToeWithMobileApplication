@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/style_popup"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/result_1_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/winner"
+            android:textColor="@color/text_color_light"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:autoSizeTextType="uniform"
+            android:singleLine="true"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            tools:targetApi="o"
+            tools:ignore="NestedWeights">
+        </TextView>
+
+        <TextView
+            android:id="@+id/result_2_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/x"
+            android:textColor="@color/text_color_light"
+            android:textStyle="bold"
+            android:textSize="100sp"
+            android:autoSizeTextType="uniform"
+            android:singleLine="true"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            tools:targetApi="o"
+            tools:ignore="NestedWeights">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/restart_the_game_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_refresh_white"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/restarting_image_button_name"
+            android:layout_gravity="center">
+        </ImageButton>
+    </LinearLayout>
+</RelativeLayout>

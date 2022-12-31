@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="version">Versiyon: 1.0.0</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="xo">XO</string>
+    <string name="winner">Kazanan!</string>
+    <string name="draw">Berabere</string>
+    <string name="you">SEN</string>
+    <string name="ai">AI</string>
+    <string name="about_us">Hakkımızda</string>
+    <string name="followUs">Bizi Takip Edin</string>
+    <string name="aboutUs_information1">Yazılım için çözüm ortağınız olan doftdare şirketine hoş geldiniz.
+        Güvenilirlik, müşteri memnuniyeti ve benzersizliğe odaklanarak size en iyi şekilde ürün sunmaya kararlıyız.
+        Doftdare, 2020 yılında 2 yazılım mühendisi tarafından mobil, oyun ve web yazılımları geliştirmek üzere Ankara\'da kuruldu.
+        Doftdare olarak çevre ve kullanıcı dostu, sürdürülebilir ürünlerin bir parçası olmaktan heyecan ve gurur duyuyoruz.
+        Ürünlerimizi size sunmaktan zevk aldığımız kadar beğeneceğinizi umuyoruz. Herhangi bir sorunuz veya yorumunuz varsa, lütfen bizimle iletişime geçmekten çekinmeyin.
+    </string>
+    <string name="aboutUs_information2">Saygılarımızla, Doftdare Ekibi</string>
+    <string name="slogan">Yarının Dünyasını Kodlayalım</string>
+    <string name="gmail">info@doftdare.com</string>
+    <string name="ai_on">Yapay Zeka Açık</string>
+    <string name="ai_off">Yapay Zeka Kapalı</string>
+    <string name="ai_on_text">Yapay Zeka Aktif!</string>
+    <string name="ai_off_text">Yapay Zeka Devre Dışı!</string>
+
+    //image button name
+    <string name="restarting_image_button_name">Restarting</string>
+    <string name="settings_image_button_name">Settings</string>
+
+    //image
+    <string name="socialMediaImage">Social Media</string>
+</resources>
